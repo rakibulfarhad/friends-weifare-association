@@ -25,6 +25,7 @@ const Friends = () => {
                     <div className="row">
                     {
                             friend.map(friend => <Bondhu
+                            key={friend.cell}
                             friend={friend}
                             handleAddDonation={handleAddDonation}
                             >

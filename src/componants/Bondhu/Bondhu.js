@@ -14,11 +14,13 @@ const Bondhu = (props) => {
                         
                     </div>
                     <ul className="">
-                        <p className="mx-auto">Email: {email}</p>
-                        <h6 className="mx-auto">Country: {location.country}</h6>
+                        <p className="mx-auto"><small>Email: {email}</small></p>
+                        <h6 className="mx-auto">City: {location.city}</h6>
                         <p className="mx-auto">Gender: {gender}</p>
                         <h6 className="mx-auto">Donation: $ {donation}</h6>
-                        <button onClick={() =>props.handleAddDonation(props.friend)} className="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Add to Friend</button>
+                        <button onClick={() =>props.handleAddDonation(props.friend)} className="btn btn-primary mb-2"> <i class="fas fa-shopping-cart"></i> Add to Friend</button><br />
+                        <i class="fab fa-facebook mx-5"></i>
+                        <i class="fab fa-instagram"></i>
                     </ul>
                     
                 </div>
