@@ -9,10 +9,10 @@ const Donation = (props) => {
     return (
         <div>
             <h3>Friends Added : {donation.length}</h3>
-            <h2>Total Donation: {total}</h2>
+            <h4>Total Donation:$ {total}</h4>
             <ul>
                 {
-                    donation.map(friend => <li>{friend.name.first} </li>)
+                    donation.map(friend => <li>Name: {friend.name.first} </li>)
                 }
             </ul>
         </div>

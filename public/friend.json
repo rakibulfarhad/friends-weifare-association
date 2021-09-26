@@ -82,7 +82,7 @@
                     "description": "Eniwetok, Kwajalein"
                 }
             },
-            "email": "marcelina.fiske@example.com",
+            "email": "marcelina@example.com",
             "donation": 750000,
             "login": {
                 "uuid": "25f5b06a-cba8-4786-8e93-80c6d60a387a",
@@ -253,7 +253,7 @@
                     "description": "Kathmandu"
                 }
             },
-            "email": "storm.kristensen@example.com",
+            "email": "storm@example.com",
             "donation": 9000,
             "login": {
                 "uuid": "0b51ed20-0a16-4dfa-ad3f-60f08f3b7f5e",
@@ -424,7 +424,7 @@
                     "description": "Pacific Time (US & Canada)"
                 }
             },
-            "email": "alberto.bennett@example.com",
+            "email": "alberto@example.com",
             "donation": 640000,
             "login": {
                 "uuid": "7c416874-0817-436c-b845-2994c4e4e9e3",
@@ -652,7 +652,7 @@
                     "description": "Eastern Australia, Guam, Vladivostok"
                 }
             },
-            "email": "zachary.levesque@example.com",
+            "email": "zachary@example.com",
             "donation": 120000,
             "login": {
                 "uuid": "d909ea05-a204-4a3e-ae8b-c7482c7c7cef",
@@ -766,7 +766,7 @@
                     "description": "Newfoundland"
                 }
             },
-            "email": "zenilda.rodrigues@example.com",
+            "email": "zenilda@example.com",
             "donation": 49000,
             "login": {
                 "uuid": "bf0695ba-ac23-4c1f-b8fd-e60b3365db4d",

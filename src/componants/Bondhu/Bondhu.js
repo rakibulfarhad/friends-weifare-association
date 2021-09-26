@@ -7,17 +7,17 @@ const Bondhu = (props) => {
     return (
         <div className="col-md-4 mt-5">
             <div className="friend-image">
-                <div className="card " style={{ "width": "18rem" }}>
+                <div className="card  friend-card " style={{ "width": "18rem" }}>
                     <img src={picture.large} className="card-img-top mx-auto" alt="..." />
-                    <div className="card-body">
+                    <div className="card-body mx-auto">
                         <h5 className="card-title">Name :{name.first}</h5>
                         
                     </div>
-                    <ul className="list-group list-group-flush">
-                        <li className="list-group-item">Email: {email}</li>
-                        <li className="list-group-item">Country: {location.country}</li>
-                        <li className="list-group-item">Gender: {gender}</li>
-                        <li className="list-group-item">Donation: {donation}</li>
+                    <ul className="">
+                        <p className="mx-auto">Email: {email}</p>
+                        <h6 className="mx-auto">Country: {location.country}</h6>
+                        <p className="mx-auto">Gender: {gender}</p>
+                        <h6 className="mx-auto">Donation: $ {donation}</h6>
                         <button onClick={() =>props.handleAddDonation(props.friend)} className="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Add to Friend</button>
                     </ul>
                     
